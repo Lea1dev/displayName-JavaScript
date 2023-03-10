@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tabela{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: solid;
+    height: 200px;
+    width: 400px;
+}
+
+tr{
+     display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+tr td{
+    margin-top: 10px;
+}
+
+#output1, #output2{
+    background-color: white;
+}
+
+tr button{
+    margin-top: 5px;
+    width: 45px;
+    height: 25px;
+    background-color: rgb(118, 118, 252);
+    color: white;
+}
